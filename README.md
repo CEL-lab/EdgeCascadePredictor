@@ -20,7 +20,7 @@ EdgeCascadePredictor/
 │   ├── 3_advanced_experiment.ipynb    # Experiment using advanced features (edge betweenness centrality)
 │
 └── README.md                          # Project documentation (this file)
-
+```
 ## Dataset
 
 The dataset used in this repository is adapted from the PowerGraph dataset. It has been modified to include edge-level labels and features for predicting edge failures across power grid states.
@@ -71,7 +71,7 @@ Execute the Jupyter notebooks in the following order:
    2_baseline_experiment.ipynb
    3_advanced_experiment.ipynb
 
-   ## Results
+## Results
 
 The following metrics are used to evaluate model performance:
 
@@ -84,7 +84,7 @@ The advanced experiment compares the performance of models trained on baseline f
 
 ## Acknowledgments
 
-- **PowerGraph Dataset**: The original dataset was adapted for edge-level prediction tasks.  
+- **PowerGraph Dataset**: The original dataset was adapted for edge-level prediction tasks from https://github.com/PowerGraph-Datasets/PowerGraph-Graph.  
 - This project utilizes GNN architectures such as **GraphSAGE** and libraries like **PyTorch Geometric**.
 
 ## License
