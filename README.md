@@ -22,8 +22,6 @@ EdgeCascadePredictor/
 └── README.md                          # Project documentation (this file)
 ```
 
----
-
 ## Dataset
 
 The dataset used in this repository is adapted from the PowerGraph dataset. It has been modified to include edge-level labels and features for predicting edge failures across power grid states.
@@ -31,8 +29,6 @@ The dataset used in this repository is adapted from the PowerGraph dataset. It h
 ### **Dataset Files**:
 - **`edge_dataset_baseline.pt`**: Contains baseline features (original node and edge features).
 - **`edge_dataset_advanced.pt`**: Contains advanced features (edge betweenness centrality added to baseline features).
-
----
 
 ## Code
 
@@ -54,8 +50,6 @@ This notebook extends the baseline experiment by incorporating **edge betweennes
 - **Features**: Baseline features + edge betweenness centrality.
 - **Model**: GraphSAGE-based GNN.
 - **Comparison**: Evaluates performance improvement over the baseline experiment.
-
----
 
 ## How to Use
 
