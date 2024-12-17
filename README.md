@@ -20,7 +20,6 @@ EdgeCascadePredictor/
 │   ├── 3_advanced_experiment.ipynb    # Experiment using advanced features (edge betweenness centrality)
 │
 └── README.md                          # Project documentation (this file)
-```
 
 ## Dataset
 
