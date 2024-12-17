@@ -57,3 +57,48 @@ This notebook extends the baseline experiment by incorporating **edge betweennes
    ```bash
    git clone https://github.com/yourusername/EdgeCascadePredictor.git
    cd EdgeCascadePredictor
+2. **Set Up the Environment**:  
+   Install the required Python libraries using `requirements.txt` (if provided):
+   ```bash
+   pip install -r requirements.txt
+## How to Run the Notebooks
+
+Execute the Jupyter notebooks in the following order:
+
+1. **Dataset Adaptation**  
+   Run the notebook to generate edge-level datasets:  
+   ```markdown
+   1_dataset_adaptation.ipynb
+   2_baseline_experiment.ipynb
+   3_advanced_experiment.ipynb
+
+   ## Results
+
+The following metrics are used to evaluate model performance:
+
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
+
+The advanced experiment compares the performance of models trained on baseline features versus those trained on enhanced features (edge betweenness centrality). Results demonstrate the contribution of additional features to prediction accuracy.
+
+## Acknowledgments
+
+- **PowerGraph Dataset**: The original dataset was adapted for edge-level prediction tasks.  
+- This project utilizes GNN architectures such as **GraphSAGE** and libraries like **PyTorch Geometric**.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions, suggestions, or collaboration opportunities, reach out:  
+
+**[Muhammad Kazim]**  
+- Email: muhammad.kazim@ndsu.edu
+- Url: https://www.ndsu.edu/labs/cell/
+
+
+
