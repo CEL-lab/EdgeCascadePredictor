@@ -25,7 +25,7 @@ EdgeCascadePredictor/
 │   ├── enhanced_features.ipynb    # Phase 2: With centrality features
 │   ├── GINE_Test_1.ipynb          # Experiment
 │
-└── README.md                          # Project documentation (this file)
+└── README.md                        
 ```
 
 ## Key Features
