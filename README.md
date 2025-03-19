@@ -1,10 +1,15 @@
-# PowerEdgeGNN
+# EdgeGNN: Robust Edge Failure Prediction in Power Grids via Network-Augmented Graph Neural Classification
 
 ## Overview
+This repository hosts the code and resources for the research paper "EdgeGNN: Robust Edge Failure Prediction in Power Grids via Network-Augmented Graph Neural Classification."
 
-PowerEdgeGNN is a comprehensive framework for edge-level prediction of cascading failures in power grids using Graph Neural Networks (GNNs). This project extends the PowerGraph dataset to predict edge failures through two key phases:
+EdgeGNN is a comprehensive framework for edge-level prediction of cascading failures in power grids using Graph Neural Networks (GNNs). This project extends the PowerGraph dataset, specifically targeting edge classification for **IEEE24** to predict edge failures through two key phases:
 1. **Baseline Experiment**: Comparison of three GNN architectures (GINE, GAT, GraphConv) with original features
 2. **Enhanced Feature Experiment**: Incorporation of network-theoretic features (edge/node centrality) to boost performance
+
+*(Preprint available soon: [Link](#))*
+
+![Cascade Network Visualization](network.png)
 
 ## Repository Structure
 
@@ -98,19 +103,25 @@ pip install -r requirements.txt
 ```
 ## Acknowledgments
 
-- **PowerGraph Dataset**: The original dataset was adapted for edge-level prediction tasks from https://github.com/PowerGraph-Datasets/PowerGraph-Graph.  
+- **PowerGraph Dataset**: The original dataset was adapted for edge-level prediction tasks from https://github.com/PowerGraph-Datasets/PowerGraph-Graph.
+
+## Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{Mkazim, 
+  title={# EdgeGNN: Robust Edge Failure Prediction in Power Grids via Network-Augmented Graph Neural Classification},
+  author={Mkazim, Harun Pirim},
+  journal={Elesvier},
+  year={2025},
+}
+```
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Contact
-
-For any questions, suggestions, or collaboration opportunities, reach out:  
-
-**[Muhammad Kazim]**  
-- Email: muhammad.kazim@ndsu.edu
-- Url: https://www.ndsu.edu/labs/cell/
 
 
 
