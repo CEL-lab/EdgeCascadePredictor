@@ -99,7 +99,7 @@ pip install -r requirements.txt
 ```
 3. **Run Experiments**
 ```bash
-pip install -r requirements.txt
+jupyter lab  # Open and run notebooks in order
 ```
 ## Acknowledgments
 
