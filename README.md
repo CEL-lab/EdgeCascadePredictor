@@ -99,7 +99,6 @@ pip install -r requirements.txt
 ## Acknowledgments
 
 - **PowerGraph Dataset**: The original dataset was adapted for edge-level prediction tasks from https://github.com/PowerGraph-Datasets/PowerGraph-Graph.  
-- This project utilizes GNN architectures such as **GraphSAGE** and libraries like **PyTorch Geometric**.
 
 ## License
 
