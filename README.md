@@ -1,8 +1,8 @@
-# EdgeCascadePredictor
+# PowerEdgeGNN
 
 ## Overview
 
-EdgeCascadePredictor is a repository for edge-level prediction of cascading failures in power grids. By leveraging Graph Neural Networks (GNNs), this project identifies vulnerable edges in a power grid to improve predictive accuracy and provide actionable insights. The dataset is adapted to focus on edge-level tasks, with experiments comparing baseline features and advanced edge features (like edge betweenness centrality).
+PowerEdgeGNN is a repository for edge-level prediction of cascading failures in power grids. By leveraging Graph Neural Networks (GNNs), this project identifies vulnerable edges in a power grid to improve predictive accuracy and provide actionable insights. The dataset is adapted to focus on edge-level tasks, with experiments comparing baseline features and advanced edge features (like edge betweenness centrality).
 
 ## Repository Structure
 
