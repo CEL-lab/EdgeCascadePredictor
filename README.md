@@ -2,7 +2,9 @@
 
 ## Overview
 
-PowerEdgeGNN is a repository for edge-level prediction of cascading failures in power grids. By leveraging Graph Neural Networks (GNNs), this project identifies vulnerable edges in a power grid to improve predictive accuracy and provide actionable insights. The dataset is adapted to focus on edge-level tasks, with experiments comparing baseline features and advanced edge features (like edge betweenness centrality).
+PowerEdgeGNN is a comprehensive framework for edge-level prediction of cascading failures in power grids using Graph Neural Networks (GNNs). This project extends the PowerGraph dataset to predict edge failures through two key phases:
+1. **Baseline Experiment**: Comparison of three GNN architectures (GINE, GAT, GraphConv) with original features
+2. **Enhanced Feature Experiment**: Incorporation of network-theoretic features (edge/node centrality) to boost performance
 
 ## Repository Structure
 
@@ -11,77 +13,89 @@ The repository is organized as follows:
 EdgeCascadePredictor/
 │
 ├── Data/
-│   ├── edge_dataset_baseline.pt       # Dataset with baseline node and edge features
-│   ├── edge_dataset_advanced.pt       # Dataset with edge betweenness centrality (advanced features)
+│   ├── data.pt      # Dataset with baseline node and edge features (Can be downloaded from the link)
 │
 ├── Code/
-│   ├── 1_dataset_adaptation.ipynb     # Script to adapt PowerGraph dataset to edge-level tasks (label creation)
-│   ├── 2_baseline_experiment.ipynb    # Baseline GNN experiment with original features
-│   ├── 3_advanced_experiment.ipynb    # Experiment using advanced features (edge betweenness centrality)
+│   ├── base_features.ipynb        # Phase 1: 3 GNNs with baseline features
+│   ├── enhanced_features.ipynb    # Phase 2: With centrality features
+│   ├── GINE_Test_1.ipynb          # Experiment
 │
 └── README.md                          # Project documentation (this file)
 ```
-## Dataset
 
-The dataset used in this repository is adapted from the PowerGraph dataset. It has been modified to include edge-level labels and features for predicting edge failures across power grid states.
+## Key Features
+**Dataset Adaptation** (PowerGraph → Edge Classification)
+- Edge failure labels from cascading failure simulations
+- Strict validation of binary edge masks
+- Class-aware sampling for extreme imbalance (3% positive)
 
-### **Dataset Files**:
-- **`edge_dataset_baseline.pt`**: Contains baseline features (original node and edge features).
-- **`edge_dataset_advanced.pt`**: Contains advanced features (edge betweenness centrality added to baseline features).
+**Network-Theoretic Features**
+*Node Features Added:*
+1. Betweenness Centrality
+2. Degree Centrality 
+3. Voltage Deviation (|V - 1.0|)
 
-## Code
+*Edge Features Added:*
+1. Edge Betweenness Centrality
+2. Load Percentage (P/Load Rating)
+3. Electrical Betweenness (|P| + |Q|)
 
-### **1. Dataset Adaptation (`1_dataset_adaptation.ipynb`)**
-This Jupyter Notebook adapts the original PowerGraph dataset to edge-level tasks:
-- **Edge Labels**: Created by comparing edges across consecutive states.
-  - `Label 0`: Edge remains active.
-  - `Label 1`: Edge fails (disconnected in the next state).
-- The processed datasets are saved in `.pt` format.
+**Model Architecture Comparison**
+1. **GINEConv**: Graph Isomorphism Network with Edge features
+2. **GATConv**: Graph Attention Network
+3. **GraphConv**: Basic graph convolutional network
 
-### **2. Baseline Experiment (`2_baseline_experiment.ipynb`)**
-This notebook implements a GNN-based model to predict edge-level failures using the baseline dataset:
-- **Features**: Original node and edge attributes (e.g., power flow, line ratings).
-- **Model**: GraphSAGE-based GNN.
-- **Output**: Performance metrics including accuracy, precision, recall, and F1-score.
+## Experimental Workflow
 
-### **3. Advanced Feature Experiment (`3_advanced_experiment.ipynb`)**
-This notebook extends the baseline experiment by incorporating **edge betweenness centrality** as an additional edge feature:
-- **Features**: Baseline features + edge betweenness centrality.
-- **Model**: GraphSAGE-based GNN.
-- **Comparison**: Evaluates performance improvement over the baseline experiment.
+### Phase 1: Baseline Comparison
+1. **Dataset Preparation**
+   - Filter Category A instances (actual cascading failures)
+   - 80/10/10 stratified split with class-aware sampling
+   - Baseline features: 3 node, 4 edge features
 
-## How to Use
+2. **Model Training**
+   - Focal Loss (α=0.75, γ=2.0) for class imbalance
+   - Gradient clipping (max_norm=1.0)
+   - 5 epochs with learning rate 1e-3
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/EdgeCascadePredictor.git
-   cd EdgeCascadePredictor
-2. **Set Up the Environment**:  
-   Install the required Python libraries using `requirements.txt` (if provided):
-   ```bash
-   pip install -r requirements.txt
-## How to Run the Notebooks
+### Phase 2: Enhanced Features
+1. **Feature Engineering**
+   - Added 3 node + 3 edge features
+   - Dynamic feature calculation during subgraph construction
 
-Execute the Jupyter notebooks in the following order:
-
-1. **Dataset Adaptation**  
-   Run the notebook to generate edge-level datasets:  
-   ```markdown
-   1_dataset_adaptation.ipynb
-   2_baseline_experiment.ipynb
-   3_advanced_experiment.ipynb
+2. **Architecture Adaptation**
+   - Updated input dimensions (node: 3→6, edge: 4→7)
+   - Same training protocol as baseline
 
 ## Results
+Metrics tracked across both phases:
+- Precision/Recall/F1-Score
+- Training/Validation Loss
 
-The following metrics are used to evaluate model performance:
+**Sample Results** (Validation Set):
+| Model       | Baseline F1 | Enhanced F1 | Δ F1  |
+|-------------|-------------|-------------|-------|
+| GINE        | 84.95%      | 89.12%      | +4.17%|
+| GAT         | 82.70%      | 86.45%      | +3.75%|
+| GraphConv   | 79.80%      | 83.90%      | +4.10%|
 
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
+Full results are saved in JSON format with epoch-wise metrics.
 
-The advanced experiment compares the performance of models trained on baseline features versus those trained on enhanced features (edge betweenness centrality). Results demonstrate the contribution of additional features to prediction accuracy.
+## Getting Started
 
+1. **Clone Repository**
+```bash
+git clone https://github.com/yourusername/PowerEdgeGNN.git
+cd PowerEdgeGNN
+```
+2. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+3. **Run Experiments**
+```bash
+pip install -r requirements.txt
+```
 ## Acknowledgments
 
 - **PowerGraph Dataset**: The original dataset was adapted for edge-level prediction tasks from https://github.com/PowerGraph-Datasets/PowerGraph-Graph.  
