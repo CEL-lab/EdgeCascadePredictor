@@ -1,9 +1,9 @@
-# EdgeGNN: Robust Edge Failure Prediction in Power Grids via Network-Augmented Graph Neural Classification
+# Predicting Transmission Line Failures with GNNs: Insights for Reliable and Sustainable Power Grids
 
 ## Overview
-This repository hosts the code and resources for the research paper "EdgeGNN: Robust Edge Failure Prediction in Power Grids via Network-Augmented Graph Neural Classification."
+This repository hosts the code and resources for the research paper "Predicting Transmission Line Failures with GNNs: Insights for Reliable and Sustainable Power Grids".
 
-EdgeGNN is a comprehensive framework for edge-level prediction of cascading failures in power grids using Graph Neural Networks (GNNs). This project extends the PowerGraph dataset, specifically targeting edge classification for **IEEE24** to predict edge failures through two key phases:
+Predicting Transmission Line Failures with GNNs: Insights for Reliable and Sustainable Power Grids is a comprehensive framework for edge-level prediction of cascading failures in power grids using Graph Neural Networks (GNNs). This project extends the PowerGraph dataset, specifically targeting edge classification for **IEEE24** to predict edge failures through two key phases:
 1. **Baseline Experiment**: Comparison of three GNN architectures (GINE, GAT, GraphConv) with original features
 2. **Enhanced Feature Experiment**: Incorporation of network-theoretic features (edge/node centrality) to boost performance
 
