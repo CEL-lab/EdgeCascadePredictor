@@ -1,0 +1,142 @@
+Training GINE for feature‐importance…
+GINE-FI | Ep 01  Train 0.7552  ValF1 0.1506
+GINE-FI | Ep 02  Train 0.4770  ValF1 0.1534
+GINE-FI | Ep 03  Train 0.3844  ValF1 0.1818
+GINE-FI | Ep 04  Train 0.3216  ValF1 0.1694
+GINE-FI | Ep 05  Train 0.2742  ValF1 0.1886
+GINE-FI | Ep 06  Train 0.2576  ValF1 0.2016
+GINE-FI | Ep 07  Train 0.2427  ValF1 0.2469
+GINE-FI | Ep 08  Train 0.2080  ValF1 0.3003
+GINE-FI | Ep 09  Train 0.2254  ValF1 0.1903
+GINE-FI | Ep 10  Train 0.1893  ValF1 0.2615
+GINE-FI | Ep 11  Train 0.2045  ValF1 0.2203
+GINE-FI | Ep 12  Train 0.1877  ValF1 0.3635
+GINE-FI | Ep 13  Train 0.1725  ValF1 0.3379
+GINE-FI | Ep 14  Train 0.1486  ValF1 0.4114
+GINE-FI | Ep 15  Train 0.1563  ValF1 0.4538
+GINE-FI | Ep 16  Train 0.1512  ValF1 0.5296
+GINE-FI | Ep 17  Train 0.1183  ValF1 0.7718
+GINE-FI | Ep 18  Train 0.1520  ValF1 0.4643
+GINE-FI | Ep 19  Train 0.1080  ValF1 0.5513
+GINE-FI | Ep 20  Train 0.1353  ValF1 0.4355
+GINE-FI | Ep 21  Train 0.1179  ValF1 0.6479
+GINE-FI | Ep 22  Train 0.1316  ValF1 0.4841
+GINE-FI | Ep 23  Train 0.1380  ValF1 0.5565
+GINE-FI | Ep 24  Train 0.1166  ValF1 0.8359
+GINE-FI | Ep 25  Train 0.1354  ValF1 0.6416
+GINE-FI | Ep 26  Train 0.1205  ValF1 0.4020
+GINE-FI | Ep 27  Train 0.1033  ValF1 0.5718
+GINE-FI | Ep 28  Train 0.1114  ValF1 0.7147
+GINE-FI | Ep 29  Train 0.0937  ValF1 0.6061
+GINE-FI | Ep 30  Train 0.0964  ValF1 0.7353
+GINE-FI | Ep 31  Train 0.1138  ValF1 0.3922
+GINE-FI | Ep 32  Train 0.0920  ValF1 0.8463
+GINE-FI | Ep 33  Train 0.1097  ValF1 0.7308
+GINE-FI | Ep 34  Train 0.0942  ValF1 0.5479
+GINE-FI | Ep 35  Train 0.0838  ValF1 0.8451
+GINE-FI | Ep 36  Train 0.1245  ValF1 0.8039
+GINE-FI | Ep 37  Train 0.1055  ValF1 0.7414
+GINE-FI | Ep 38  Train 0.0857  ValF1 0.4542
+GINE-FI | Ep 39  Train 0.0888  ValF1 0.6533
+GINE-FI | Ep 40  Train 0.1027  ValF1 0.8156
+GINE-FI | Ep 41  Train 0.1009  ValF1 0.6637
+GINE-FI | Ep 42  Train 0.1029  ValF1 0.8431
+⏹️ early stop at 42  best F1=0.8463 @ 32
+
+Training GAT for feature‐importance…
+GAT-FI | Ep 01  Train 0.9883  ValF1 0.0728
+GAT-FI | Ep 02  Train 0.5175  ValF1 0.1197
+GAT-FI | Ep 03  Train 0.3948  ValF1 0.1699
+GAT-FI | Ep 04  Train 0.3464  ValF1 0.1706
+GAT-FI | Ep 05  Train 0.3351  ValF1 0.1389
+GAT-FI | Ep 06  Train 0.3159  ValF1 0.1918
+GAT-FI | Ep 07  Train 0.2593  ValF1 0.1673
+GAT-FI | Ep 08  Train 0.2656  ValF1 0.2132
+GAT-FI | Ep 09  Train 0.2389  ValF1 0.1936
+GAT-FI | Ep 10  Train 0.2254  ValF1 0.2673
+GAT-FI | Ep 11  Train 0.2527  ValF1 0.2603
+GAT-FI | Ep 12  Train 0.2150  ValF1 0.4325
+GAT-FI | Ep 13  Train 0.2108  ValF1 0.3209
+GAT-FI | Ep 14  Train 0.2013  ValF1 0.2781
+GAT-FI | Ep 15  Train 0.2148  ValF1 0.3121
+GAT-FI | Ep 16  Train 0.1951  ValF1 0.2849
+GAT-FI | Ep 17  Train 0.1863  ValF1 0.3448
+GAT-FI | Ep 18  Train 0.1846  ValF1 0.3145
+GAT-FI | Ep 19  Train 0.1764  ValF1 0.2218
+GAT-FI | Ep 20  Train 0.1815  ValF1 0.3151
+GAT-FI | Ep 21  Train 0.1811  ValF1 0.3271
+GAT-FI | Ep 22  Train 0.1604  ValF1 0.3677
+⏹️ early stop at 22  best F1=0.4325 @ 12
+
+Training EdgeAwareGC for feature‐importance…
+EdgeAwareGC-FI | Ep 01  Train 0.7209  ValF1 0.1296
+EdgeAwareGC-FI | Ep 02  Train 0.3410  ValF1 0.2167
+EdgeAwareGC-FI | Ep 03  Train 0.2921  ValF1 0.2337
+EdgeAwareGC-FI | Ep 04  Train 0.2333  ValF1 0.3083
+EdgeAwareGC-FI | Ep 05  Train 0.1832  ValF1 0.3482
+EdgeAwareGC-FI | Ep 06  Train 0.1550  ValF1 0.6195
+EdgeAwareGC-FI | Ep 07  Train 0.1674  ValF1 0.2823
+EdgeAwareGC-FI | Ep 08  Train 0.1564  ValF1 0.7177
+EdgeAwareGC-FI | Ep 09  Train 0.1458  ValF1 0.6967
+EdgeAwareGC-FI | Ep 10  Train 0.1345  ValF1 0.6397
+EdgeAwareGC-FI | Ep 11  Train 0.1246  ValF1 0.2751
+EdgeAwareGC-FI | Ep 12  Train 0.1427  ValF1 0.4998
+EdgeAwareGC-FI | Ep 13  Train 0.1200  ValF1 0.3801
+EdgeAwareGC-FI | Ep 14  Train 0.0880  ValF1 0.8062
+EdgeAwareGC-FI | Ep 15  Train 0.1014  ValF1 0.8424
+EdgeAwareGC-FI | Ep 16  Train 0.0939  ValF1 0.8119
+EdgeAwareGC-FI | Ep 17  Train 0.0868  ValF1 0.7656
+EdgeAwareGC-FI | Ep 18  Train 0.1041  ValF1 0.7332
+EdgeAwareGC-FI | Ep 19  Train 0.0753  ValF1 0.6882
+EdgeAwareGC-FI | Ep 20  Train 0.0758  ValF1 0.6370
+EdgeAwareGC-FI | Ep 21  Train 0.0860  ValF1 0.7463
+EdgeAwareGC-FI | Ep 22  Train 0.0814  ValF1 0.8166
+EdgeAwareGC-FI | Ep 23  Train 0.0949  ValF1 0.6887
+EdgeAwareGC-FI | Ep 24  Train 0.0697  ValF1 0.8561
+EdgeAwareGC-FI | Ep 25  Train 0.0757  ValF1 0.6632
+EdgeAwareGC-FI | Ep 26  Train 0.0745  ValF1 0.7947
+EdgeAwareGC-FI | Ep 27  Train 0.0719  ValF1 0.5949
+EdgeAwareGC-FI | Ep 28  Train 0.0537  ValF1 0.8054
+EdgeAwareGC-FI | Ep 29  Train 0.0667  ValF1 0.8517
+EdgeAwareGC-FI | Ep 30  Train 0.1173  ValF1 0.4996
+EdgeAwareGC-FI | Ep 31  Train 0.0720  ValF1 0.6742
+EdgeAwareGC-FI | Ep 32  Train 0.0906  ValF1 0.6878
+EdgeAwareGC-FI | Ep 33  Train 0.0586  ValF1 0.8582
+EdgeAwareGC-FI | Ep 34  Train 0.0721  ValF1 0.7996
+EdgeAwareGC-FI | Ep 35  Train 0.0587  ValF1 0.7609
+EdgeAwareGC-FI | Ep 36  Train 0.0626  ValF1 0.6906
+EdgeAwareGC-FI | Ep 37  Train 0.0760  ValF1 0.7561
+EdgeAwareGC-FI | Ep 38  Train 0.0612  ValF1 0.5123
+EdgeAwareGC-FI | Ep 39  Train 0.0551  ValF1 0.8386
+EdgeAwareGC-FI | Ep 40  Train 0.0752  ValF1 0.8311
+EdgeAwareGC-FI | Ep 41  Train 0.0721  ValF1 0.7565
+EdgeAwareGC-FI | Ep 42  Train 0.0703  ValF1 0.6624
+EdgeAwareGC-FI | Ep 43  Train 0.0636  ValF1 0.6803
+⏹️ early stop at 43  best F1=0.8582 @ 33
+
+Analyzing GINE importance…
+
+Analyzing GAT importance…
+
+Analyzing EdgeAwareGC importance…
+
+Node Feature Importance:
+                   GINE       GAT  EdgeAwareGC
+Node Feature                                 
+Net active power        0.002292  0.012732     0.001414
+Net Apparent Power      0.002093  0.012404     0.001325
+Voltage Magnitude       0.002349  0.012910     0.001396
+Node BC       		0.001910  0.011294     0.001067
+Node Deg      		0.009829  0.055983     0.006107
+Volt Dev      		0.001769  0.008398     0.000995
+
+Edge Feature Importance:
+                   GINE       GAT  EdgeAwareGC
+Edge Feature                                 
+P             0.000314  0.006674     0.000050
+Q             0.000442  0.004948     0.000009
+X             0.001326  0.012689     0.000137
+lr            0.001423  0.019056     0.000247
+Edge BC       0.000490  0.008376     0.000059
+Load %        0.001192  0.020566     0.000064
+Elec BC       0.000529  0.015714     0.000067
