@@ -1,0 +1,20 @@
+Edge label distribution IEEE24:
+- Failed edges (1): 8252.0 (3.25%)
+- Stable edges (0): 245398.0 (96.75%)
+Total subgraphs in full_dataset: 3444
+
+Edge label distribution IEEE39:
+- Failed edges (1): 788.0 (3.14%)
+- Stable edges (0): 24320.0 (96.86%)
+Total subgraphs in full_dataset: 281
+
+Edge label distribution IEEE118:
+- Failed edges (1): 2360.0 (0.55%)
+- Stable edges (0): 428464.0 (99.45%)
+Total subgraphs in full_dataset: 1167
+
+Edge label distribution UK:
+- Failed edges (1): 28168.0 (3.18%)
+- Stable edges (0): 856874.0 (96.82%)
+Total subgraphs in full_dataset: 4531
+
