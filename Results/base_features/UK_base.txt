@@ -1,0 +1,138 @@
+[GINE] Fold 1/2
+GINE-F1 | Epoch 01  TrainLoss 0.8901  ValF1 0.1739
+GINE-F1 | Epoch 02  TrainLoss 0.5550  ValF1 0.1828
+GINE-F1 | Epoch 03  TrainLoss 0.4893  ValF1 0.1687
+GINE-F1 | Epoch 04  TrainLoss 0.4520  ValF1 0.1775
+GINE-F1 | Epoch 05  TrainLoss 0.4006  ValF1 0.2312
+GINE-F1 | Epoch 06  TrainLoss 0.3896  ValF1 0.2671
+GINE-F1 | Epoch 07  TrainLoss 0.3523  ValF1 0.2561
+GINE-F1 | Epoch 08  TrainLoss 0.3584  ValF1 0.3286
+GINE-F1 | Epoch 09  TrainLoss 0.3612  ValF1 0.2658
+GINE-F1 | Epoch 10  TrainLoss 0.3662  ValF1 0.2554
+GINE-F1 | Epoch 11  TrainLoss 0.3377  ValF1 0.3361
+GINE-F1 | Epoch 12  TrainLoss 0.3283  ValF1 0.2931
+GINE-F1 | Epoch 13  TrainLoss 0.3286  ValF1 0.3526
+GINE-F1 | Epoch 14  TrainLoss 0.3260  ValF1 0.3125
+GINE-F1 | Epoch 15  TrainLoss 0.3280  ValF1 0.3481
+GINE-F1 | Epoch 16  TrainLoss 0.2882  ValF1 0.3640
+GINE-F1 | Epoch 17  TrainLoss 0.3017  ValF1 0.3643
+GINE-F1 | Epoch 18  TrainLoss 0.2836  ValF1 0.3352
+GINE-F1 | Epoch 19  TrainLoss 0.2997  ValF1 0.2516
+GINE-F1 | Epoch 20  TrainLoss 0.2897  ValF1 0.2823
+
+[GINE] Fold 2/2
+GINE-F2 | Epoch 01  TrainLoss 0.8220  ValF1 0.2003
+GINE-F2 | Epoch 02  TrainLoss 0.5542  ValF1 0.1685
+GINE-F2 | Epoch 03  TrainLoss 0.4947  ValF1 0.1895
+GINE-F2 | Epoch 04  TrainLoss 0.4891  ValF1 0.1775
+GINE-F2 | Epoch 05  TrainLoss 0.4278  ValF1 0.1885
+GINE-F2 | Epoch 06  TrainLoss 0.4697  ValF1 0.1654
+GINE-F2 | Epoch 07  TrainLoss 0.4204  ValF1 0.1689
+GINE-F2 | Epoch 08  TrainLoss 0.4062  ValF1 0.1915
+⏹️ Early stopping at epoch 8, best F1=0.2003
+
+[GAT] Fold 1/2
+GAT-F1 | Epoch 01  TrainLoss 1.0971  ValF1 0.0616
+GAT-F1 | Epoch 02  TrainLoss 0.6864  ValF1 0.1354
+GAT-F1 | Epoch 03  TrainLoss 0.5760  ValF1 0.1483
+GAT-F1 | Epoch 04  TrainLoss 0.5211  ValF1 0.1557
+GAT-F1 | Epoch 05  TrainLoss 0.4497  ValF1 0.1773
+GAT-F1 | Epoch 06  TrainLoss 0.4294  ValF1 0.1935
+GAT-F1 | Epoch 07  TrainLoss 0.4222  ValF1 0.2116
+GAT-F1 | Epoch 08  TrainLoss 0.4133  ValF1 0.2275
+GAT-F1 | Epoch 09  TrainLoss 0.3866  ValF1 0.2058
+GAT-F1 | Epoch 10  TrainLoss 0.3843  ValF1 0.2684
+GAT-F1 | Epoch 11  TrainLoss 0.3951  ValF1 0.2187
+GAT-F1 | Epoch 12  TrainLoss 0.3754  ValF1 0.2510
+GAT-F1 | Epoch 13  TrainLoss 0.3704  ValF1 0.2607
+GAT-F1 | Epoch 14  TrainLoss 0.3554  ValF1 0.2895
+GAT-F1 | Epoch 15  TrainLoss 0.3620  ValF1 0.2316
+GAT-F1 | Epoch 16  TrainLoss 0.3679  ValF1 0.2812
+GAT-F1 | Epoch 17  TrainLoss 0.3532  ValF1 0.2675
+GAT-F1 | Epoch 18  TrainLoss 0.3463  ValF1 0.2450
+GAT-F1 | Epoch 19  TrainLoss 0.3586  ValF1 0.2684
+GAT-F1 | Epoch 20  TrainLoss 0.3348  ValF1 0.2520
+
+[GAT] Fold 2/2
+GAT-F2 | Epoch 01  TrainLoss 1.2741  ValF1 0.0644
+GAT-F2 | Epoch 02  TrainLoss 0.6568  ValF1 0.1188
+GAT-F2 | Epoch 03  TrainLoss 0.5477  ValF1 0.1391
+GAT-F2 | Epoch 04  TrainLoss 0.4978  ValF1 0.1664
+GAT-F2 | Epoch 05  TrainLoss 0.4566  ValF1 0.1660
+GAT-F2 | Epoch 06  TrainLoss 0.4506  ValF1 0.1489
+GAT-F2 | Epoch 07  TrainLoss 0.4415  ValF1 0.1706
+GAT-F2 | Epoch 08  TrainLoss 0.4124  ValF1 0.1820
+GAT-F2 | Epoch 09  TrainLoss 0.4171  ValF1 0.1803
+GAT-F2 | Epoch 10  TrainLoss 0.4060  ValF1 0.2047
+GAT-F2 | Epoch 11  TrainLoss 0.3862  ValF1 0.1942
+GAT-F2 | Epoch 12  TrainLoss 0.3536  ValF1 0.2638
+GAT-F2 | Epoch 13  TrainLoss 0.3680  ValF1 0.2856
+GAT-F2 | Epoch 14  TrainLoss 0.3749  ValF1 0.2360
+GAT-F2 | Epoch 15  TrainLoss 0.3546  ValF1 0.2510
+GAT-F2 | Epoch 16  TrainLoss 0.3474  ValF1 0.2791
+GAT-F2 | Epoch 17  TrainLoss 0.3586  ValF1 0.2581
+GAT-F2 | Epoch 18  TrainLoss 0.3256  ValF1 0.2976
+GAT-F2 | Epoch 19  TrainLoss 0.3240  ValF1 0.2902
+GAT-F2 | Epoch 20  TrainLoss 0.3256  ValF1 0.2804
+
+[EdgeAwareGC] Fold 1/2
+EdgeAwareGC-F1 | Epoch 01  TrainLoss 0.7812  ValF1 0.1926
+EdgeAwareGC-F1 | Epoch 02  TrainLoss 0.4934  ValF1 0.2000
+EdgeAwareGC-F1 | Epoch 03  TrainLoss 0.4395  ValF1 0.2163
+EdgeAwareGC-F1 | Epoch 04  TrainLoss 0.4094  ValF1 0.2449
+EdgeAwareGC-F1 | Epoch 05  TrainLoss 0.3621  ValF1 0.2939
+EdgeAwareGC-F1 | Epoch 06  TrainLoss 0.3274  ValF1 0.3576
+EdgeAwareGC-F1 | Epoch 07  TrainLoss 0.2989  ValF1 0.3751
+EdgeAwareGC-F1 | Epoch 08  TrainLoss 0.2948  ValF1 0.4319
+EdgeAwareGC-F1 | Epoch 09  TrainLoss 0.2701  ValF1 0.4015
+EdgeAwareGC-F1 | Epoch 10  TrainLoss 0.2547  ValF1 0.3491
+EdgeAwareGC-F1 | Epoch 11  TrainLoss 0.2452  ValF1 0.4087
+EdgeAwareGC-F1 | Epoch 12  TrainLoss 0.2275  ValF1 0.3587
+EdgeAwareGC-F1 | Epoch 13  TrainLoss 0.2215  ValF1 0.4178
+EdgeAwareGC-F1 | Epoch 14  TrainLoss 0.2121  ValF1 0.3851
+EdgeAwareGC-F1 | Epoch 15  TrainLoss 0.1977  ValF1 0.4034
+⏹️ Early stopping at epoch 15, best F1=0.4319
+
+[EdgeAwareGC] Fold 2/2
+EdgeAwareGC-F2 | Epoch 01  TrainLoss 0.8053  ValF1 0.1828
+EdgeAwareGC-F2 | Epoch 02  TrainLoss 0.5407  ValF1 0.1932
+EdgeAwareGC-F2 | Epoch 03  TrainLoss 0.4646  ValF1 0.1935
+EdgeAwareGC-F2 | Epoch 04  TrainLoss 0.4175  ValF1 0.2133
+EdgeAwareGC-F2 | Epoch 05  TrainLoss 0.3757  ValF1 0.2192
+EdgeAwareGC-F2 | Epoch 06  TrainLoss 0.3446  ValF1 0.2300
+EdgeAwareGC-F2 | Epoch 07  TrainLoss 0.3252  ValF1 0.2334
+EdgeAwareGC-F2 | Epoch 08  TrainLoss 0.3035  ValF1 0.3003
+EdgeAwareGC-F2 | Epoch 09  TrainLoss 0.2595  ValF1 0.3311
+EdgeAwareGC-F2 | Epoch 10  TrainLoss 0.2382  ValF1 0.4004
+EdgeAwareGC-F2 | Epoch 11  TrainLoss 0.2268  ValF1 0.3900
+EdgeAwareGC-F2 | Epoch 12  TrainLoss 0.2078  ValF1 0.4335
+EdgeAwareGC-F2 | Epoch 13  TrainLoss 0.1982  ValF1 0.4525
+EdgeAwareGC-F2 | Epoch 14  TrainLoss 0.2045  ValF1 0.3994
+EdgeAwareGC-F2 | Epoch 15  TrainLoss 0.1788  ValF1 0.4328
+EdgeAwareGC-F2 | Epoch 16  TrainLoss 0.1671  ValF1 0.4134
+EdgeAwareGC-F2 | Epoch 17  TrainLoss 0.1717  ValF1 0.4283
+EdgeAwareGC-F2 | Epoch 18  TrainLoss 0.1885  ValF1 0.4031
+EdgeAwareGC-F2 | Epoch 19  TrainLoss 0.1580  ValF1 0.3417
+EdgeAwareGC-F2 | Epoch 20  TrainLoss 0.1442  ValF1 0.4016
+⏹️ Early stopping at epoch 20, best F1=0.4525
+
+📊  Fast 2‑Fold Summary
+GINE      
+
+	"f1": 0.2823 ± 0.0820
+	"precision": 0.31 ± 0.08
+	"recall": 0.26 ± 0.09
+
+
+GAT       
+
+	"f1": 0.2935 ± 0.0041
+	"precision": 0.30 ± 0.01
+	"recall": 0.29 ± 0.01
+
+EdgeAwareGC:  
+
+	"f1": 0.4422 ± 0.0103
+	"precision": 0.46 ± 0.01
+	"recall": 0.43 ± 0.01
+

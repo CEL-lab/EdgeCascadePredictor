@@ -1,0 +1,106 @@
+[GINE] Fold 1/2
+GINE-F1 | Epoch 01  TrainLoss 1.7378  ValF1 0.0624
+GINE-F1 | Epoch 02  TrainLoss 1.4638  ValF1 0.0624
+GINE-F1 | Epoch 03  TrainLoss 1.2853  ValF1 0.0624
+GINE-F1 | Epoch 04  TrainLoss 1.2166  ValF1 0.0624
+GINE-F1 | Epoch 05  TrainLoss 1.1844  ValF1 0.0624
+GINE-F1 | Epoch 06  TrainLoss 1.1725  ValF1 0.0624
+GINE-F1 | Epoch 07  TrainLoss 1.1209  ValF1 0.0624
+GINE-F1 | Epoch 08  TrainLoss 1.1308  ValF1 0.0624
+⏹️ Early stopping at epoch 8, best F1=0.0624
+
+[GINE] Fold 2/2
+GINE-F2 | Epoch 01  TrainLoss 2.0634  ValF1 0.0598
+GINE-F2 | Epoch 02  TrainLoss 1.6673  ValF1 0.0592
+GINE-F2 | Epoch 03  TrainLoss 1.3590  ValF1 0.0592
+GINE-F2 | Epoch 04  TrainLoss 1.2172  ValF1 0.0592
+GINE-F2 | Epoch 05  TrainLoss 1.1382  ValF1 0.0592
+GINE-F2 | Epoch 06  TrainLoss 1.1391  ValF1 0.0592
+GINE-F2 | Epoch 07  TrainLoss 1.0851  ValF1 0.0592
+GINE-F2 | Epoch 08  TrainLoss 1.0750  ValF1 0.0592
+⏹️ Early stopping at epoch 8, best F1=0.0598
+
+[GAT] Fold 1/2
+GAT-F1 | Epoch 01  TrainLoss 2.0873  ValF1 0.0624
+GAT-F1 | Epoch 02  TrainLoss 1.8086  ValF1 0.0624
+GAT-F1 | Epoch 03  TrainLoss 1.6296  ValF1 0.0624
+GAT-F1 | Epoch 04  TrainLoss 1.4480  ValF1 0.0624
+GAT-F1 | Epoch 05  TrainLoss 1.3212  ValF1 0.0624
+GAT-F1 | Epoch 06  TrainLoss 1.2319  ValF1 0.0624
+GAT-F1 | Epoch 07  TrainLoss 1.2030  ValF1 0.0624
+GAT-F1 | Epoch 08  TrainLoss 1.0609  ValF1 0.0624
+⏹️ Early stopping at epoch 8, best F1=0.0624
+
+[GAT] Fold 2/2
+GAT-F2 | Epoch 01  TrainLoss 2.0216  ValF1 0.0592
+GAT-F2 | Epoch 02  TrainLoss 1.7308  ValF1 0.0592
+GAT-F2 | Epoch 03  TrainLoss 1.4694  ValF1 0.0592
+GAT-F2 | Epoch 04  TrainLoss 1.3195  ValF1 0.0592
+GAT-F2 | Epoch 05  TrainLoss 1.2651  ValF1 0.0592
+GAT-F2 | Epoch 06  TrainLoss 1.1559  ValF1 0.0592
+GAT-F2 | Epoch 07  TrainLoss 1.1678  ValF1 0.0592
+GAT-F2 | Epoch 08  TrainLoss 1.1182  ValF1 0.0592
+⏹️ Early stopping at epoch 8, best F1=0.0592
+
+[EdgeAwareGC] Fold 1/2
+EdgeAwareGC-F1 | Epoch 01  TrainLoss 1.6392  ValF1 0.0624
+EdgeAwareGC-F1 | Epoch 02  TrainLoss 1.1948  ValF1 0.0624
+EdgeAwareGC-F1 | Epoch 03  TrainLoss 1.1012  ValF1 0.0624
+EdgeAwareGC-F1 | Epoch 04  TrainLoss 0.9999  ValF1 0.0624
+EdgeAwareGC-F1 | Epoch 05  TrainLoss 0.9564  ValF1 0.0627
+EdgeAwareGC-F1 | Epoch 06  TrainLoss 0.9290  ValF1 0.0631
+EdgeAwareGC-F1 | Epoch 07  TrainLoss 0.8298  ValF1 0.0636
+EdgeAwareGC-F1 | Epoch 08  TrainLoss 0.7871  ValF1 0.0652
+EdgeAwareGC-F1 | Epoch 09  TrainLoss 0.7708  ValF1 0.0671
+EdgeAwareGC-F1 | Epoch 10  TrainLoss 0.7725  ValF1 0.0716
+EdgeAwareGC-F1 | Epoch 11  TrainLoss 0.7056  ValF1 0.0728
+EdgeAwareGC-F1 | Epoch 12  TrainLoss 0.6082  ValF1 0.0758
+EdgeAwareGC-F1 | Epoch 13  TrainLoss 0.5652  ValF1 0.0834
+EdgeAwareGC-F1 | Epoch 14  TrainLoss 0.5714  ValF1 0.0920
+EdgeAwareGC-F1 | Epoch 15  TrainLoss 0.6997  ValF1 0.0944
+EdgeAwareGC-F1 | Epoch 16  TrainLoss 0.5741  ValF1 0.0970
+EdgeAwareGC-F1 | Epoch 17  TrainLoss 0.5561  ValF1 0.0987
+EdgeAwareGC-F1 | Epoch 18  TrainLoss 0.6244  ValF1 0.0977
+EdgeAwareGC-F1 | Epoch 19  TrainLoss 0.5628  ValF1 0.1013
+EdgeAwareGC-F1 | Epoch 20  TrainLoss 0.5875  ValF1 0.1070
+
+[EdgeAwareGC] Fold 2/2
+EdgeAwareGC-F2 | Epoch 01  TrainLoss 1.6366  ValF1 0.0592
+EdgeAwareGC-F2 | Epoch 02  TrainLoss 1.1932  ValF1 0.0592
+EdgeAwareGC-F2 | Epoch 03  TrainLoss 1.1158  ValF1 0.0592
+EdgeAwareGC-F2 | Epoch 04  TrainLoss 1.0577  ValF1 0.0592
+EdgeAwareGC-F2 | Epoch 05  TrainLoss 0.9539  ValF1 0.0599
+EdgeAwareGC-F2 | Epoch 06  TrainLoss 0.9264  ValF1 0.0617
+EdgeAwareGC-F2 | Epoch 07  TrainLoss 0.9313  ValF1 0.0630
+EdgeAwareGC-F2 | Epoch 08  TrainLoss 0.8691  ValF1 0.0639
+EdgeAwareGC-F2 | Epoch 09  TrainLoss 0.8577  ValF1 0.0645
+EdgeAwareGC-F2 | Epoch 10  TrainLoss 0.7405  ValF1 0.0662
+EdgeAwareGC-F2 | Epoch 11  TrainLoss 0.7718  ValF1 0.0689
+EdgeAwareGC-F2 | Epoch 12  TrainLoss 0.7656  ValF1 0.0740
+EdgeAwareGC-F2 | Epoch 13  TrainLoss 0.7375  ValF1 0.0800
+EdgeAwareGC-F2 | Epoch 14  TrainLoss 0.7341  ValF1 0.0832
+EdgeAwareGC-F2 | Epoch 15  TrainLoss 0.6911  ValF1 0.0845
+EdgeAwareGC-F2 | Epoch 16  TrainLoss 0.6688  ValF1 0.0868
+EdgeAwareGC-F2 | Epoch 17  TrainLoss 0.6864  ValF1 0.0901
+EdgeAwareGC-F2 | Epoch 18  TrainLoss 0.5915  ValF1 0.0937
+EdgeAwareGC-F2 | Epoch 19  TrainLoss 0.5945  ValF1 0.1027
+EdgeAwareGC-F2 | Epoch 20  TrainLoss 0.5614  ValF1 0.1065
+
+📊  Fast 2‑Fold Summary
+GINE      
+
+	"f1": 0.0611 ± 0.0013,
+	"precision": 0.063 ± 0.002,
+	"recall": 0.059 ± 0.002
+
+GAT       
+	"f1": 0.0608 ± 0.0016
+	"precision": 0.061 ± 0.002
+	"recall": 0.061 ± 0.002
+
+EdgeAwareGC:
+  
+	"f1": 0.1067 ± 0.0003
+	"precision": 0.108 ± 0.001
+	"recall": 0.105 ± 0.001
+
