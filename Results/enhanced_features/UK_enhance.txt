@@ -1,0 +1,139 @@
+[GINE] Fold 1/2
+GINE‑F1 | Ep 01  Train 0.3048  ValF1 0.2814
+GINE‑F1 | Ep 02  Train 0.2035  ValF1 0.3326
+GINE‑F1 | Ep 03  Train 0.1884  ValF1 0.3943
+GINE‑F1 | Ep 04  Train 0.1700  ValF1 0.3676
+GINE‑F1 | Ep 05  Train 0.1627  ValF1 0.3728
+GINE‑F1 | Ep 06  Train 0.1508  ValF1 0.4211
+GINE‑F1 | Ep 07  Train 0.1444  ValF1 0.4276
+GINE‑F1 | Ep 08  Train 0.1447  ValF1 0.3670
+GINE‑F1 | Ep 09  Train 0.1359  ValF1 0.4149
+GINE‑F1 | Ep 10  Train 0.1279  ValF1 0.4412
+GINE‑F1 | Ep 11  Train 0.1290  ValF1 0.5389
+GINE‑F1 | Ep 12  Train 0.1294  ValF1 0.5281
+GINE‑F1 | Ep 13  Train 0.1108  ValF1 0.5397
+GINE‑F1 | Ep 14  Train 0.1161  ValF1 0.4743
+GINE‑F1 | Ep 15  Train 0.1199  ValF1 0.4907
+GINE‑F1 | Ep 16  Train 0.0991  ValF1 0.4678
+GINE‑F1 | Ep 17  Train 0.0988  ValF1 0.4855
+GINE‑F1 | Ep 18  Train 0.0999  ValF1 0.5267
+GINE‑F1 | Ep 19  Train 0.0926  ValF1 0.4985
+GINE‑F1 | Ep 20  Train 0.0912  ValF1 0.7101
+
+[GINE] Fold 2/2
+GINE‑F2 | Ep 01  Train 0.2801  ValF1 0.3175
+GINE‑F2 | Ep 02  Train 0.2122  ValF1 0.4039
+GINE‑F2 | Ep 03  Train 0.1977  ValF1 0.3715
+GINE‑F2 | Ep 04  Train 0.1956  ValF1 0.3471
+GINE‑F2 | Ep 05  Train 0.1733  ValF1 0.3929
+GINE‑F2 | Ep 06  Train 0.1741  ValF1 0.3871
+GINE‑F2 | Ep 07  Train 0.1568  ValF1 0.4047
+GINE‑F2 | Ep 08  Train 0.1509  ValF1 0.3988
+GINE‑F2 | Ep 09  Train 0.1430  ValF1 0.4600
+GINE‑F2 | Ep 10  Train 0.1394  ValF1 0.3724
+GINE‑F2 | Ep 11  Train 0.1437  ValF1 0.4136
+GINE‑F2 | Ep 12  Train 0.1261  ValF1 0.4358
+GINE‑F2 | Ep 13  Train 0.1217  ValF1 0.3660
+GINE‑F2 | Ep 14  Train 0.1219  ValF1 0.4077
+GINE‑F2 | Ep 15  Train 0.1175  ValF1 0.4941
+GINE‑F2 | Ep 16  Train 0.1131  ValF1 0.5825
+GINE‑F2 | Ep 17  Train 0.1148  ValF1 0.5306
+GINE‑F2 | Ep 18  Train 0.1153  ValF1 0.6275
+GINE‑F2 | Ep 19  Train 0.1056  ValF1 0.6122
+GINE‑F2 | Ep 20  Train 0.1056  ValF1 0.5183
+
+[GAT] Fold 1/2
+GAT‑F1 | Ep 01  Train 0.4012  ValF1 0.0836
+GAT‑F1 | Ep 02  Train 0.2898  ValF1 0.2694
+GAT‑F1 | Ep 03  Train 0.2373  ValF1 0.2964
+GAT‑F1 | Ep 04  Train 0.2137  ValF1 0.3030
+GAT‑F1 | Ep 05  Train 0.2054  ValF1 0.3551
+GAT‑F1 | Ep 06  Train 0.2014  ValF1 0.3336
+GAT‑F1 | Ep 07  Train 0.1912  ValF1 0.3879
+GAT‑F1 | Ep 08  Train 0.1886  ValF1 0.4216
+GAT‑F1 | Ep 09  Train 0.1813  ValF1 0.4911
+GAT‑F1 | Ep 10  Train 0.1720  ValF1 0.5057
+GAT‑F1 | Ep 11  Train 0.1741  ValF1 0.4118
+GAT‑F1 | Ep 12  Train 0.1779  ValF1 0.2400
+GAT‑F1 | Ep 13  Train 0.1751  ValF1 0.5023
+GAT‑F1 | Ep 14  Train 0.1750  ValF1 0.5060
+GAT‑F1 | Ep 15  Train 0.1714  ValF1 0.5053
+GAT‑F1 | Ep 16  Train 0.1616  ValF1 0.4986
+GAT‑F1 | Ep 17  Train 0.1688  ValF1 0.3903
+GAT‑F1 | Ep 18  Train 0.1693  ValF1 0.4087
+GAT‑F1 | Ep 19  Train 0.1702  ValF1 0.2513
+GAT‑F1 | Ep 20  Train 0.1668  ValF1 0.3405
+
+[GAT] Fold 2/2
+GAT‑F2 | Ep 01  Train 0.4078  ValF1 0.1063
+GAT‑F2 | Ep 02  Train 0.3092  ValF1 0.1565
+GAT‑F2 | Ep 03  Train 0.2568  ValF1 0.2761
+GAT‑F2 | Ep 04  Train 0.2297  ValF1 0.3019
+GAT‑F2 | Ep 05  Train 0.2098  ValF1 0.3642
+GAT‑F2 | Ep 06  Train 0.2111  ValF1 0.3213
+GAT‑F2 | Ep 07  Train 0.1994  ValF1 0.3864
+GAT‑F2 | Ep 08  Train 0.1930  ValF1 0.3887
+GAT‑F2 | Ep 09  Train 0.1880  ValF1 0.4116
+GAT‑F2 | Ep 10  Train 0.1909  ValF1 0.3571
+GAT‑F2 | Ep 11  Train 0.1906  ValF1 0.4559
+GAT‑F2 | Ep 12  Train 0.1893  ValF1 0.4317
+GAT‑F2 | Ep 13  Train 0.1789  ValF1 0.4329
+GAT‑F2 | Ep 14  Train 0.1867  ValF1 0.4293
+GAT‑F2 | Ep 15  Train 0.1822  ValF1 0.4358
+GAT‑F2 | Ep 16  Train 0.1773  ValF1 0.4836
+GAT‑F2 | Ep 17  Train 0.1826  ValF1 0.4588
+GAT‑F2 | Ep 18  Train 0.1719  ValF1 0.4483
+GAT‑F2 | Ep 19  Train 0.1839  ValF1 0.4521
+GAT‑F2 | Ep 20  Train 0.1722  ValF1 0.4547
+
+[EdgeAwareGC] Fold 1/2
+EdgeAwareGC‑F1 | Ep 01  Train 0.2585  ValF1 0.3430
+EdgeAwareGC‑F1 | Ep 02  Train 0.1924  ValF1 0.3302
+EdgeAwareGC‑F1 | Ep 03  Train 0.1794  ValF1 0.4892
+EdgeAwareGC‑F1 | Ep 04  Train 0.1778  ValF1 0.3808
+EdgeAwareGC‑F1 | Ep 05  Train 0.1618  ValF1 0.3864
+EdgeAwareGC‑F1 | Ep 06  Train 0.1476  ValF1 0.4069
+EdgeAwareGC‑F1 | Ep 07  Train 0.1347  ValF1 0.4628
+EdgeAwareGC‑F1 | Ep 08  Train 0.1320  ValF1 0.4565
+EdgeAwareGC‑F1 | Ep 09  Train 0.1286  ValF1 0.3253
+EdgeAwareGC‑F1 | Ep 10  Train 0.1248  ValF1 0.4877
+⏹️ early stop at 10  best F1=0.4892 @ 3
+
+[EdgeAwareGC] Fold 2/2
+EdgeAwareGC‑F2 | Ep 01  Train 0.2784  ValF1 0.3457
+EdgeAwareGC‑F2 | Ep 02  Train 0.2037  ValF1 0.3714
+EdgeAwareGC‑F2 | Ep 03  Train 0.1888  ValF1 0.3733
+EdgeAwareGC‑F2 | Ep 04  Train 0.1806  ValF1 0.3671
+EdgeAwareGC‑F2 | Ep 05  Train 0.1674  ValF1 0.4356
+EdgeAwareGC‑F2 | Ep 06  Train 0.1565  ValF1 0.4173
+EdgeAwareGC‑F2 | Ep 07  Train 0.1473  ValF1 0.5208
+EdgeAwareGC‑F2 | Ep 08  Train 0.1381  ValF1 0.4049
+EdgeAwareGC‑F2 | Ep 09  Train 0.1174  ValF1 0.4911
+EdgeAwareGC‑F2 | Ep 10  Train 0.1049  ValF1 0.5559
+EdgeAwareGC‑F2 | Ep 11  Train 0.1098  ValF1 0.5451
+EdgeAwareGC‑F2 | Ep 12  Train 0.0955  ValF1 0.5192
+EdgeAwareGC‑F2 | Ep 13  Train 0.0864  ValF1 0.4075
+EdgeAwareGC‑F2 | Ep 14  Train 0.0744  ValF1 0.6806
+EdgeAwareGC‑F2 | Ep 15  Train 0.0788  ValF1 0.5105
+EdgeAwareGC‑F2 | Ep 16  Train 0.0737  ValF1 0.6141
+EdgeAwareGC‑F2 | Ep 17  Train 0.0643  ValF1 0.7836
+EdgeAwareGC‑F2 | Ep 18  Train 0.0633  ValF1 0.6098
+EdgeAwareGC‑F2 | Ep 19  Train 0.0578  ValF1 0.6992
+EdgeAwareGC‑F2 | Ep 20  Train 0.0550  ValF1 0.4665
+
+📊  Fast 2‑fold summary
+GINE     
+	"f1": 0.6688 ± 0.0413
+	"precision": 0.69 ± 0.04
+	"recall": 0.65 ± 0.05
+
+GAT       
+	"f1": 0.4948 ± 0.0112
+	"precision": 0.51 ± 0.01
+	"recall": 0.48 ± 0.01
+
+EdgeAwareGC:  
+	"f1": 0.6364 ± 0.1472
+	"precision": 0.65 ± 0.14
+	"recall": 0.63 ± 0.16
+
