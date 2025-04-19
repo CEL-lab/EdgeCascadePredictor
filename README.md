@@ -9,7 +9,7 @@ Predicting Transmission Line Failures with GNNs: Insights for Reliable and Susta
 
 *(Preprint available soon: [Link](#))*
 
-![Cascade Network Visualization](cascade_network.png)
+<img src="cascade_network.png" alt="Cascade Network Visualization" width="400" style="border-radius:8px;"/>
 
 ## Repository Structure
 
